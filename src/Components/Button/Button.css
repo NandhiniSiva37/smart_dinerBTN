@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  min-height:100vh;
+  font-family:Montserrat, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight:700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote-container{
+    width:auto;
+    max-width:900px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(10, 248, 10, 0.349);
+    background-color: rgba(4, 245, 56, 0.589);
+  }
+  #quote {
+    font-size: 2.75rem;
+  }
+  .fa-utensils {
+    font-size: 4rem;
+  }
+  
+  .button-container{
+    margin-top: 15px;
+    display:flex;
+    justify-content: center;
+  }
+  
+  button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    background: rgba(243, 247, 6, 0.795);
+    outline: none;
+    padding: 0.5rem 2.8rem;
+    box-shadow: 2px 2px rgba(17, 48, 25, 0.966);
+  }
+  
+  button:hover{
+    filter:brightness(150%);
+  }
+   button:active{
+     transform: translate(0,0.3rem);
+     box-shadow:10px 10px rgba(32, 243, 113, 0.199);
+   }
+  #press-me{
+    color:black ;
+    font-size: 1.2rem;
+  }
+/* Media query: Tablet or smaller */
+@media screen and (max-width: 1000px){
+    .quote-container{
+      margin: auto 10px;
+    }
+    .quote{
+      font-size: 2.5rem;
+    }
+  }  
